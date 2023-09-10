@@ -1,0 +1,22 @@
+body {
+  background-color: mediumpurple;
+}
+
+.square {
+  width: 4rem;
+  height: 4rem;
+  background-color: white;
+  opacity: .6;
+
+  animation: move 1s forwards;
+}
+
+@keyframes move {
+  /* 0% {
+
+  } */
+
+  100% {
+    transform: translatex(calc(100vw - 100% - 16px));
+  }
+}
