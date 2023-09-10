@@ -2,6 +2,8 @@
 
 - [x] Faça o quadrado ir de um lado para o outro na página. Faça ele ficar parado no ponto oposto do início.
 
+## Aprendizados
+
 - Início e fim: `0%` e `100%`, `from` e `to`.
 - Linha do tempo - é preciso definir um tempo de duração da animação
 - Definimos animações no css utilizando `@keyframes` seguido do nome da animação. Ex: `nomedaanimacao`

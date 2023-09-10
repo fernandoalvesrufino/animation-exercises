@@ -1,0 +1,30 @@
+body {
+  background-color: mediumpurple;
+}
+
+.square {
+  width: 4rem;
+  height: 4rem;
+  background-color: white;
+  opacity: .6;
+
+  animation-name: move;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-direction: alternate; /* Se não utilizarmos o animation-direction a animacao vai comecar, voltar do zero e comecar denovo */
+  animation-iteration-count: infinite;
+}
+
+@keyframes move {
+  /*
+  Uma das formas de fazer esse exercício é simplesmente definindo o transform a 50%
+
+  50% {
+   transform: translatex(calc(100vw - 100% - 16px));
+  }
+  */
+
+  100% {
+    transform: translatex(calc(100vw - 100% - 16px));
+  }
+}
